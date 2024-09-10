@@ -428,4 +428,9 @@ print(a.difference(b))
 print(dir(Vehicle))
 
 
-input("whats your name")
+#Ask user for their name
+name = input("whats your name")
+
+#Say hello to user
+print("Hello")
+print(name)
