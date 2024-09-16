@@ -429,8 +429,16 @@ print(dir(Vehicle))
 
 
 #Ask user for their name
-name = input("whats your name")
+#removes white space and capitalize first letter of words from str
+name = input("whats your name? ").strip().title()
+
+#split user's name into first name and last name
+first, last = name.split(" ")
+
+  
+
 
 #Say hello to user
-print("Hello")
-print(name)
+print(f"Hello, {first}")
+
+
